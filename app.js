@@ -17,3 +17,14 @@ else{
     console.log("Your child is absent");
     
 }
+
+
+let std = "ali";
+let userinp1 = prompt("name")
+
+if(std == userinp ){
+    console.log("Your child is present");
+    
+}else{
+    console.log("Your child is absent");
+}
