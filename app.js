@@ -1,3 +1,4 @@
+// ________________________task ✅
 
 // let userName = ["qirat", "mesham", "qahroba","ashar"];
 
@@ -32,46 +33,81 @@
 
 // _______________________________________________new task
 
+// __________________________Q1 ✅
 
-let eng = 20
-let math = 18
-let sci = 22
-let urd = 19
-let totalMarks = 100;
+// let to = +prompt("num");
+// let eng = 15
+// let math = 18
+// let sci = 22
+// let urd = 19
 
-let total = eng + math + sci + urd;
-console.log(total*100/1000);
-console.log(  total % totalMarks );
+// let totalMarks = 120;
 
+// let total = eng + math + sci + urd;
 
-let email = "qirat@12";
-let pass = "qirr444";
-let num = 2345;
-let useinp = prompt("enter your Email")
+// console.log(to / totalMarks * 100 ,"user");
 
-// let useinp2 = prompt("enter your information")
+// console.log(total / totalMarks *100 , "subjects");
 
 
+// __________________________Q2 ✅
 
-if (useinp === email) {
-    console.log("correct email");
+// let userName = "qirat";
+// let email = "qirat@12";
+// let pass = "qirr444";
+// let num = 0312456;
+
+
+// let useName = prompt("enter your name")
+
+// if (userName === useName) {
+//     console.log("correct user name");
+    
+// }else{
+//     console.log("Incorrect user name");
+// }
+
+// let useinp = prompt("enter your Email")
+
+// if (useinp === email) {
+//     console.log("correct email");
+    
+// }else{
+//     console.log("Incorrect email");
+// } 
+
+// let useinp1 = prompt("enter your password")
+
+// if(useinp1 === pass){
+//     console.log("correct password");
+// }else{
+//     console.log("Incorrect password");
+// } 
+
+// let useinp2 = +prompt("enter your number")
+
+// if(useinp2 === num){
+//     console.log("correct number");
+// }else{
+//     console.log("Incorrect number");
+// }
+
+
+
+// ___________________________Q3 ✅
+
+let numinp = +prompt("number")
+
+if (numinp % 2) {
+    console.log("odd");
     
 }else{
-    console.log("Incorrect email");
-} 
-
-let useinp1 = prompt("enter your password")
-
-if(useinp1 === pass){
-    console.log("correct password");
-}else{
-    console.log("Incorrect password");
-} 
-
-let useinp2 = +prompt("enter your number")
-
-if(useinp2 === num){
-    console.log("correct number");
-}else{
-    console.log("Incorrect number");
+    console.log("even");
 }
+
+
+
+
+
+
+
