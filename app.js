@@ -35,74 +35,74 @@
 
 // __________________________Q1 ✅
 
-// let to = +prompt("num");
-// let eng = 15
-// let math = 18
-// let sci = 22
-// let urd = 19
+let usertotal = +prompt("Enter your total numbers");
+let eng = 15
+let math = 18
+let sci = 22
+let urd = 19
 
-// let totalMarks = 120;
+let totalMarks = 120;
 
-// let total = eng + math + sci + urd;
+let total = eng + math + sci + urd;
 
-// console.log(to / totalMarks * 100 ,"user");
+alert( usertotal / totalMarks * 100 );
 
-// console.log(total / totalMarks *100 , "subjects");
+alert(total / totalMarks *100 , "subjects");
 
 
 // __________________________Q2 ✅
 
-// let userName = "qirat";
-// let email = "qirat@12";
-// let pass = "qirr444";
-// let num = 0312456;
+let userName = "qirat";
+let email = "qirat@12";
+let pass = "qirr444";
+let num = 2456;
 
 
-// let useName = prompt("enter your name")
+let userName1 = prompt("enter your name")
 
-// if (userName === useName) {
-//     console.log("correct user name");
+if (userName === userName1) {
+    alert("correct user name");
     
-// }else{
-//     console.log("Incorrect user name");
-// }
+}else{
+    alert("Incorrect user name");
+}
 
-// let useinp = prompt("enter your Email")
+let useinp = prompt("enter your Email")
 
-// if (useinp === email) {
-//     console.log("correct email");
+if (useinp === email) {
+    alert("correct email");
     
-// }else{
-//     console.log("Incorrect email");
-// } 
+}else{
+    alert("Incorrect email");
+} 
 
-// let useinp1 = prompt("enter your password")
+let useinp1 = prompt("enter your password")
 
-// if(useinp1 === pass){
-//     console.log("correct password");
-// }else{
-//     console.log("Incorrect password");
-// } 
+if(useinp1 === pass){
+    alert("correct password");
+}else{
+    alert("Incorrect password");
+} 
 
-// let useinp2 = +prompt("enter your number")
+let useinp2 = +prompt("enter your number")
 
-// if(useinp2 === num){
-//     console.log("correct number");
-// }else{
-//     console.log("Incorrect number");
-// }
+if(useinp2 === num){
+    alert("correct number");
+}else{
+    alert("Incorrect number");
+}
 
 
 
 // ___________________________Q3 ✅
 
-let numinp = +prompt("number")
+let numinp = +prompt("Enter Number")
 
 if (numinp % 2) {
-    console.log("odd");
+    alert("odd");
     
 }else{
-    console.log("even");
+    alert("even");
 }
 
 
